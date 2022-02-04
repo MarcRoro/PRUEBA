@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<!-- Aquí tenemos el principio de la cabecera. -->
+    <head>
+    <!-- En esta etiqueta pondremos la ruta del css. -->
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <!-- Añadiremos la etiqueta para enlazar la hoja de estilo aquí -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>índice digital.html</title>
+    </head>
+<!-- Aquí explicaremos todo el cuerpo del inicio de la página web, es decir,
+     cuando entras en la página web es el principio que ves. -->
+    <body>
+    <div class="contenedor">
+        <div class="titulo">SÍNDROME DE DOWN</div>
+        <nav id="pestanas">
+            <ul id=lista>
+                <li><a href="índice digital.html">INICIO</a>
+                <li><a href="quiensomos.html">QUIEN SOMOS?</a>
+                <li><a href="quehacemos.html">QUE HACEMOS?</a>
+                <li><a href="contacto.html">CONTACTO</a>
+            </ul>
+        </nav>
+
+        <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+        <!-- A partir de aquí hacia adelante explicaremos todo lo que corresponda a la explicación del Síndrome de Down. -->
+        <div id="contenidopestanas">
+            <div id="pestana1">
+              <img class="5.png" src="media/5.png" alt="foto5" width="1000" height="250">
+              <h2><strong>QUE ES EL SÍNDROME DE DOWN?</strong></h2>
+              <p>
+                 El síndrome de Down (SD) es un trastorno genético causado por la presencia de una copia extra del
+                 <strong>cromosoma 21</strong>, o una parte de éste, en vez de los dos habituales
+                  (trisomía del par 21). Se caracteriza por la presencia de un grado variable
+                  de retraso mental y unos rasgos físicos peculiares que le dan un aspecto reconocible.
+              </p>
+
+              <p>
+                 Cada una de las células del ser humano posee en su núcleo 23 pares de cromosomas.
+                 Cada progenitor aporta a su descendencia La mitad de la información genética,
+                 en forma de un cromosoma de cada par. 22 de estos pares se denominan
+                 autosomas y el último corresponde a los cromosomas sexuales <strong>(X o Y)</strong>.
+              </p>
+
+              <p>
+                 El cromosoma 21 explica aproximadamente el 1% de la información genética
+                 de un individuo en algo más de 400 genes, aunque hoy en día
+                 sólo se conoce con precisiones la función de unos pocos.
+              </p>
+
+              <img class="1.png" src="media/1.png" alt="foto1" width="350" height="250">
+              <img class="6.png" src="media/6.jpg" alt="foto6" width="430" height="250">
+
+              <h2><strong>QUE CAUSAS TIENE?</strong></h2>
+
+              <a href="https://cuidateplus.marca.com/enfermedades/geneticas/sindrome-de-down.html">Trisomia 21</a>
+
+              <p>
+                 Es un error genético que tiene lugar muy pronto en el <strong>proceso de reproducción celular.</strong>
+              </p>
+
+              <a href="https://cuidateplus.marca.com/enfermedades/geneticas/sindrome-de-down.html">Translocación Cromosómica</a>
+
+              <p>
+                 Es cuando un <strong>cromosoma 21</strong> se rompe y alguno de estos fragmentos
+                 (o el cromosoma al completo) se une de forma anómala a una
+                 otra pareja cromosómica, generalmente <strong>en el 14.</strong>
+              </p>
+
+              <a href="https://cuidateplus.marca.com/enfermedades/geneticas/sindrome-de-down.html">Mosaicismo</a>
+
+              <p>
+                 Una vez fecundado el óvulo, en el proceso de división subsiguiente el material
+                 genético no se separa correctamente, por lo que una de las células hija
+                 tiene tres cromosomas en su <strong>par 21</strong> y en el otro solo uno
+              </p>
+
+              <img class="2.png" src="media/2.png" alt="foto2" width="350" height="250">
+
+              <p><em><u><strong>VIDEO DEL SINDROME DE DOWN</strong></u></em></p>
+
+              <aside>
+
+              <iframe width="650" height="450" src="https://www.youtube.com/embed/VOdjsS4Jk1A"
+              allow="accelerometer; autoplay; encrypted-media;
+              gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              </aside>
+
+            </div>
+            <div id="cpestana2">
+
+            </div>
+
+            <footer><!--Pie de página -->
+                 <p>Copyleft: Creado por Marc Rodríguez</p>
+
+                 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons"
+                   style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"
+                   /></a><br />Licencia de Creative Commons <a rel="license"
+                   href="http://creativecommons.org/licenses/by/4.0/"
+                   ></a>
+
+                 <p>
+                    <a href="https://www.instagram.com">Instagram</a>
+                 </p>
+
+                 <p>
+                    <a href="https://www.facebook.com">Facebook</a>
+                 </p>
+             </footer>
+
+    </div>
+    </body>
+</html>
